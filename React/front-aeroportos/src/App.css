@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  margin: 0 auto;
+  text-align: center;
+  background-color:  #085f63;
+  padding: 20px;
+  color: rgb(201, 196, 196);
+}
+
+
+h4{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.search{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+}
+
+.search input{
+  margin-left: 10px;
+}
+
+
+.search button{
+  max-width: 90px;
+  margin-left: 20PX;
+}
+
+#tabela{
+  width: 97%;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th, td{
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+.btn-delete{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-edit{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+  
+th{
+  font-weight: bold;
+  }
+  
+tr:nth-child(even) {
+  background-color: #DCEBE6;
+  }
+  
+  tr:hover:nth-child(1n + 2) {
+  background-color: #168086;
+  color: #fff;
+  }
+
+button{
+      background-color: #085f63;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+/*CADASTRO DE NOVO AEROPORTO*/
+
+.container{
+  width: 15vw;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+h2{
+  padding: 4px 0px;
+  margin-bottom: 20px;
+}
+.form{   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forminfo{
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+form input{
+  margin-top: 4px;
+  margin-bottom: 8px;
+  padding: 4px;
+}
+
+.form label{
+  font-weight: 600;
+}
+
+.btn-send, button{
+  width: 100%;
+  background-color: #168086;
+  color: aliceblue;
+  border: none;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.btn-send:hover{
+  background-color: #4ab5bb;
+  transform: scale(1.05);
+}
